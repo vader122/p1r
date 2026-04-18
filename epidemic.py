@@ -133,7 +133,7 @@ class Population:
         plt.show()
 
 
-PoP = Population(liczeb=1000, infectionprob=0.001)
+PoP = Population(liczeb=100, infectionprob=0.01)
 PoP.Paint()
         
 
