@@ -40,8 +40,10 @@ def plot_with_params(x,y, **params):
     plt.show()
     
 
-wart  = np.linspace(0,100, 10000)
-funk = np.sin(wart)
+# wart  = np.linspace(0,100, 10000)
+# funk = np.sin(wart)
 
-plot_with_params(wart, funk, color='green', linestyle='dashed', label='GHCCFGGGCFCFHJ')
+# plot_with_params(wart, funk, color='green', linestyle='dashed', label='GHCCFGGGCFCFHJ')
+
+
 
