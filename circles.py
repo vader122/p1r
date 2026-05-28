@@ -1,7 +1,7 @@
 import math
 
 class circle:
-    def __init__(self, wspx,wspy,prom: float):
+    def __init__(self, wspx,wspy,prom):
         self.x = wspx
         self.y = wspy
         self.r = prom

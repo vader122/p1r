@@ -34,7 +34,7 @@ class Polynomial:
             w = w + (real**(i))*self.c[i]
         return w
 
-    def __add__(self, other):
+    def __add__(self, other): # poprawić bo zip obcina do najkrótszej listy
         new_c = [x+y for x,y in zip(self.c, other.c)]
         return Polynomial(new_c)
     

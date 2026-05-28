@@ -56,4 +56,3 @@ else:
             c.append(x/y)
         plt.plot(range(2013,2026), c)
         plt.show()
-    

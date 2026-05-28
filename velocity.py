@@ -1,7 +1,7 @@
 import numpy as np
 
 class Velocity:
-    def __init__(self, beta=0):
+    def __init__(self, beta=0.):
         self.beta = beta
     def __str__(self):
         return f'Ułamek prędkości wynosi {self.beta}.'
@@ -17,7 +17,7 @@ class Velocity:
         return 1/np.sqrt(1-self.beta**2)
     
     
-def velocity(v1=0, v2=0):
+def velocity(v1: int | float=0., v2=0.):
     V1 = Velocity(v1)
     V2 = Velocity(v2)
     V = V1+V2
